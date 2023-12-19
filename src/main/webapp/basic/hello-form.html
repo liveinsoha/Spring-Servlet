@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/request-param" method="post">
+    username: <input type="text" name="username" />
+    age: <input type="text" name="age" />
+    <button type="submit">전송</button>
+</form>
+</body>
+</html>
+
+<!--HTML폼이 웹브라우저에서 하는 일이랑, PostMan이 하는 일은 똑같다. contentType을 맞추어 HTTP메시지를 보내는 것 -> 서버입장에서는 같다.
+서버는 들어오는 HTTP메시지를 읽어 파라미터 정보를 읽어들인다-->
